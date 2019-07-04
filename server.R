@@ -1,5 +1,9 @@
 shinyServer(function(input, output) {
+
   い
+
+  あ
+
   output$text1 <- renderText({ 
     paste("You have selected", input$var)
     
